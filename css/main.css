@@ -1,6 +1,6 @@
 ul {
     font-family: Arial, Verdana;
-    font-size: 14px;
+    font-size: 15px;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -39,20 +39,58 @@ li:hover li a:hover {
     background: #1e7c9a;
 }
 
-div.wraper{
-	background:red;
-	width:900px;
-	height:auto; 
-	margin:0 auto; 
-	margin-top: 0px;
+a.menu-left{
+	height:17px;
+	width:50px;
 }
 
+a.menu-right{
+	height:17px;
+	width:428px;
+}
+
+div.wraper{
+	width:1000px;
+	height:auto; 
+	margin:0 auto; 
+	margin-top: 2px;
+}
+
+div.header{
+	background-image:url("../images/header-sds-two.png");
+	background-repeat:no-repeat;
+	height:200px;
+}
 div.menu-list{
-	background:green;
 	height:30px;
+	padding: 0 0 5 0;
+}
+
+div.content{
+	min-height:400px;
 }
 
 div.footer{
-	background:blue;
 	height:100px;
+}
+
+div.title{
+	padding:50 0 0 20;
+	font-size:40px;
+}
+
+div.slogan{
+	padding: 0 0 10 50;
+	font-size:20px;
+}
+
+div.footer-address{
+	padding:0 0 0 20;
+}
+div.footer-developer{
+	padding:0 0 0 600;
+}
+
+.left{
+	float:left;
 }

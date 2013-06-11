@@ -1,3 +1,3 @@
 <div class='content'>
-	taf
+	<h1>Site under maintenance.</h1>
 </div>
